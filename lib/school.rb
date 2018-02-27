@@ -20,6 +20,6 @@ end
 end
 
   def grade(grade)
-    @roster[grade] = []
+    return @roster[grade]
   end
 end
