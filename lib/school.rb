@@ -21,4 +21,5 @@ end
 
   def grade(grade)
     puts @roster[grade]
+  end
 end
