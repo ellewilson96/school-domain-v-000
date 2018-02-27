@@ -10,6 +10,6 @@ class School
   end
 
   def add_student(name, grade)
-    new_hash << name
+    roster << name
 end
 end
