@@ -27,5 +27,5 @@ end
     @roster.each do |key, value|
       value.sort
     end
-
+  end
 end
