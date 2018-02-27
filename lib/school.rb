@@ -19,12 +19,12 @@ class School
 end
 end
 
+def sort
+  @roster[grade].sort
+  puts @roster[grade]
+end
+
   def grade(grade)
     return @roster[grade]
-  end
-
-  def sort
-    @roster[grade].sort
-    puts @roster[grade]
   end
 end
