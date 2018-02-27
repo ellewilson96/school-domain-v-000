@@ -24,6 +24,7 @@ end
   end
 
   def sort
-    puts @roster[grade].sort
+    @roster[grade].sort
+    puts @roster[grade]
   end
 end
