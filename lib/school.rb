@@ -24,6 +24,6 @@ end
   end
 
   def sort
-    return @roster[grade].sort
+    return @roster.sort
   end
 end
