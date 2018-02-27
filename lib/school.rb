@@ -18,4 +18,7 @@ class School
     @roster[grade] << name
 end
 end
+
+  def grade(grade)
+    puts @roster[grade]
 end
